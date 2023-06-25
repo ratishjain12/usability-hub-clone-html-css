@@ -3,7 +3,10 @@
 @media screen and (max-width: 992px) {
     /* navbar */
 
-    html,body{
+    html{
+        overflow-x:hidden;
+    }
+    body{
         overflow-x: hidden;
     }
     .top-banner{
@@ -194,7 +197,9 @@
 
 @media  screen and (max-width:768px) {
 
-    html,
+    html{
+        overflow-x: hidden;
+    }
     body{
         overflow-x: hidden;
     }
@@ -231,7 +236,10 @@
 
 
 @media screen and (max-width:480px) {
-    html,body{
+    html{
+        overflow-x:hidden; 
+    };
+    body{
         overflow-x: hidden;
     }
     .feature-cards{

@@ -13,11 +13,14 @@
     --secondary-accent-color: #2294ed;
     --padding-primary: 20px;
 }
-html,
+
 body{
     font-family: 'Poppins', 'sans-serif';
     color: var(--primary-color);
-    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden; /* Hide scrollbars */
 }
 
 h1{
