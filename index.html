@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usability Hub</title>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="media-queries.css"/>
+
 
 </head>
 <body>
@@ -20,14 +22,23 @@
                 <div class="logo">
                     <img src="images/asset 1.png"/>"
                 </div>
-                <ul class="nav-link flex">
+                <ul class="nav-link flex" nav-menu>
                     <li><a href="#" class="links">Product</a></li>
                     <li><a href="#"class="links">Customers</a></li>
                     <li><a href="#" class="links">Pricing</a></li>
                     <li><a href="#" class="links">Resources</a></li>
-                    <li><a href="#" class="links button-secondary">Sign in</a></li>
-                    <li><a href="#" class="button-primary">Sign up</a></li>
+                    <li><a href="#" class="links button-secondary secondary-mobile">Sign in</a></li>
+                    <li><a href="#" class="button-primary primary-mobile">Sign up</a></li>
                 </ul>
+                <div class="mobile-menu" mobile-menu>
+                    <div class="menu" menu-btn>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="close" close-btn>
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+               
                 </nav>
             </div>
             
@@ -250,7 +261,7 @@
         </section>
 
         <section class="st-panel container">
-            <h2 class="features-header">Start testing today</h2>
+            <h2 class="features-header st-header">Start testing today</h2>
             <p>Take the guesswork out of design decisions</p>
             <a href="#" class="button-primary">Get Started</a>
         </section>
@@ -309,6 +320,7 @@
                 </div>
             </div>
         </div>
+        <script src="script.js" defer></script>
         <script src="https://kit.fontawesome.com/ae4b03396b.js" crossorigin="anonymous"></script>
 </body>
 </html>
