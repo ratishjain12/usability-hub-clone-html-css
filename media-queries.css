@@ -194,7 +194,10 @@
 
 @media  screen and (max-width:768px) {
 
-
+    html,
+    body{
+        overflow-x: hidden;
+    }
 
     .button-primary{
         width: 100%;
@@ -228,6 +231,9 @@
 
 
 @media screen and (max-width:480px) {
+    html,body{
+        overflow-x: hidden;
+    }
     .feature-cards{
         gap:30px;
     }
@@ -272,6 +278,101 @@
         background-image: url("images/asset\ 41.png"),url("images/asset\ 40.png");
         background-repeat: no-repeat;
         background-size: 23vw 30vh, 99% 90%;
+        background-position: center, top 20px center;
+        text-align: center;
+    }
+
+    .nav-link{
+        width: 70vw;
+    }
+
+    .grid-layout-footer{
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: repeat(3,33% 33% 22%);
+        column-gap:0px;
+        row-gap: 10px;
+        align-items: center;
+    }
+
+    .footer-section{
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+    align-items: center;
+        
+    }
+
+    .lists{
+        text-align: center;
+        list-style: none;
+        >li{
+            text-align: center;
+            margin: 10px 0px;
+        }
+        >li:hover{
+            color: #2294ed;
+        }
+    }
+    
+}
+
+
+@media screen and (max-width:425px) {
+    html{
+        overflow-x:hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+
+    .feature-cards{
+        gap:10px;
+    }
+    .feature-card{
+        max-width: 100%;
+    }
+
+    .feature-card h3{
+        font-size: 1em;
+    }
+    .feature-card p{
+        width: 200px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .content-image{
+        width: 90vw;
+    }
+
+    .example-card,.example-card1,.example-card2,.example-card3{
+        width: 100%;
+        height: 180px;
+    }
+
+    .grid{
+        padding: none;
+        font-size: 13px;
+    }
+    .grid-layout{
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 50% 50%;
+        justify-content: center;
+        text-align: left;
+    }
+    .right-panel-inside{
+        font-size: 8px;
+        font-weight: bold;
+    }
+    .right-panel{
+        width: 100vw;
+        height: 350px;
+        background-image: url("images/asset\ 41.png"),url("images/asset\ 40.png");
+        background-repeat: no-repeat;
+        background-size: 33vw 28vh, 99% 90%;
         background-position: center, top 20px center;
         text-align: center;
     }
