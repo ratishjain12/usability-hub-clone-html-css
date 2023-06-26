@@ -209,10 +209,9 @@
     .nav-link{
         width: 300px;
     }
-
-    .button-primary{
+    
+    .button-primary,.button-secondary{
         width: 80%;
-        margin-inline: 30px;
     }
     .features-section{
         background: none;
@@ -319,6 +318,10 @@
 } 
 
 @media screen and (min-width:375px) and (max-width:425px){
+    .button-primary,.button-secondary{
+        width: 80%;
+    }
+
     .right-panel-inside{
         font-size: 8px;
         font-weight: bold;
@@ -360,6 +363,9 @@
 
 @media screen and (max-width:320px) {
     
+    .button-primary,.button-secondary{
+        width: 80%;
+    }
     
     html{
         overflow-x:hidden;
@@ -383,6 +389,7 @@
     .left a{
         margin-top: 10px;
     }
+
     .primary-mobile{
         background-color: #2294ed;
         padding: 0.4em 2em;
