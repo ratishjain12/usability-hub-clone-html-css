@@ -2,7 +2,9 @@
 
   @media screen and (max-width: 992px) {
     /* navbar */
-
+    .getstarted{
+        width: 90%;
+    }
     html{
         overflow-x:hidden;
     }
@@ -199,6 +201,10 @@
 
 @media  screen and (min-width: 321px) and (max-width: 768px){
 
+    .try,.learn{
+        width: 80%;
+    }
+
     html{
         overflow-x: hidden;
     }
@@ -210,9 +216,6 @@
         width: 300px;
     }
     
-    .button-primary,.button-secondary{
-        width: 80%;
-    }
     .features-section{
         background: none;
     }
@@ -318,7 +321,7 @@
 } 
 
 @media screen and (min-width:375px) and (max-width:425px){
-    .button-primary,.button-secondary{
+    .try,.learn{
         width: 80%;
     }
 
@@ -363,7 +366,7 @@
 
 @media screen and (max-width:320px) {
     
-    .button-primary,.button-secondary{
+    .try,.learn{
         width: 80%;
     }
     
