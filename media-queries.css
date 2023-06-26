@@ -306,6 +306,16 @@
         background-position: center, top 20px center;
         text-align: center;
     }
+    .left{
+        width: 90%;
+    }
+    .left p{
+        
+        padding: 0px;
+    }
+    .left a{
+        margin-top: 10px;
+    }
 } 
 
 @media screen and (min-width:375px) and (max-width:425px){
@@ -334,11 +344,22 @@
         justify-content: center;
         text-align: left;
     }
+
+    .left{
+        width: 100%;
+    }
+    .left p{
+        
+        padding: 0px;
+    }
+    .left a{
+        margin-top: 10px;
+    }
     
 }
 
 @media screen and (max-width:320px) {
-
+    
     
     html{
         overflow-x:hidden;
@@ -352,6 +373,16 @@
         padding: 4em 2.2em;
     }
 
+    .left{
+        width: 100%;
+    }
+    .left p{
+        
+        padding: 0px;
+    }
+    .left a{
+        margin-top: 10px;
+    }
     .primary-mobile{
         background-color: #2294ed;
         padding: 0.4em 2em;
