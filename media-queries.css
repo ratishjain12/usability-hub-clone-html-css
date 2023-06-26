@@ -1,6 +1,6 @@
 /* responsive */
 
-@media screen and (max-width: 992px) {
+ @media screen and (max-width: 992px) {
     /* navbar */
 
     html{
@@ -19,7 +19,7 @@
         position: relative;
     } */
     .nav-link{
-        width: 45vw;
+        width: 50vw;
         height: 100vh;
         position: absolute;
         flex-direction: column;
@@ -27,8 +27,8 @@
         align-items: flex-start;
         gap:20px;
         top: 0;
-        right:-50%;
-        padding: 2em 3em 0;
+        right:0;
+        padding: 4em 5em 0;
         transform: translateX(100%);
         background-color: white;
         border-left: 1px solid rgb(235, 228, 228);
@@ -49,15 +49,17 @@
    
     .primary-mobile{
         background-color: #2294ed;
-        padding: 0.4em 4em;
+        padding: 0.5em 2.5em;
         color: white;
         border-radius: 8px; 
+        font-size: 14px;
     }
 
     .secondary-mobile{
-        padding: 0.4em 4em;
+        padding: 0.5em 2.5em;
         border: 1px solid var(--accent-color);
-        border-radius: 8px;  
+        border-radius: 8px; 
+        font-size: 14px; 
     }
 
 
@@ -111,7 +113,7 @@
 
     .st-panel{
         padding:0 ;
-        padding: 2rem 1rem;
+        padding: 4rem 1rem;
     }
     .st-header{
         font-weight: 600;
@@ -193,15 +195,19 @@
         grid-template-columns: repeat(auto-fit,13em 13em 10em);
         column-gap:20px;
     }
-}
+} 
 
-@media  screen and (max-width:768px) {
+@media  screen and (min-width: 321px) and (max-width: 768px){
 
     html{
         overflow-x: hidden;
     }
     body{
         overflow-x: hidden;
+    }
+
+    .nav-link{
+        width: 300px;
     }
 
     .button-primary{
@@ -232,10 +238,15 @@
         color: #b9cde4;
         width: 100%;
     }
+
+    .st-panel{
+        padding:0 ;
+        padding: 4rem 1rem;
+    }
 }
 
 
-@media screen and (max-width:480px) {
+/* @media screen and (max-width:480px) {
     html{
         overflow-x:hidden; 
     };
@@ -248,6 +259,12 @@
     .feature-card{
         max-width: calc(50% - 60px);
     }
+
+    .st-panel{
+        padding:0 ;
+        padding: 4rem 1rem;
+    }
+
 
     .feature-card h3{
         font-size: 1em;
@@ -323,10 +340,61 @@
         }
     }
     
+    .grid-layout-footer{
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: repeat(3,33% 33% 22%);
+        column-gap:0px;
+        row-gap: 10px;
+        align-items: center;
+    }
+
+    .footer-section{
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+    align-items: center;
+        
+    }
+
+    .lists{
+        text-align: center;
+        list-style: none;
+        >li{
+            text-align: center;
+            margin: 10px 0px;
+        }
+        >li:hover{
+            color: #2294ed;
+        }
+    }
+
+    
+    .primary-mobile{
+        background-color: #2294ed;
+        padding: 0.4em 2.1em;
+        color: white;
+        border-radius: 8px; 
+    }
+
+    .secondary-mobile{
+        padding: 0.4em 2.1em;
+        border: 1px solid var(--accent-color);
+        border-radius: 8px;  
+    }
+
+    .policy li{
+        font-size: 0.4em;
+    }
+
+    .sub-footer{
+        background-color: #b9cde4;
+        padding: 10px;
+    }
 }
 
-
-@media screen and (max-width:425px) {
+/*  */
+/* @media screen and (max-width:425px) {
     html{
         overflow-x:hidden;
     }
@@ -434,9 +502,11 @@
         }
     }
     
-}
+} */ 
 
 @media screen and (max-width:320px) {
+
+    
     html{
         overflow-x:hidden;
     }
@@ -444,17 +514,24 @@
         overflow-x: hidden;
     }
 
+    .nav-link{
+        width: 290px;
+        padding: 4em 2.2em;
+    }
+
     .primary-mobile{
         background-color: #2294ed;
-        padding: 0.4em 2.1em;
+        padding: 0.4em 2em;
         color: white;
         border-radius: 8px; 
+        font-size: 14px;
     }
 
     .secondary-mobile{
-        padding: 0.4em 2.1em;
+        padding: 0.4em 2em;
         border: 1px solid var(--accent-color);
         border-radius: 8px;  
+        font-size: 14px;
     }
 
     .nav-link{
