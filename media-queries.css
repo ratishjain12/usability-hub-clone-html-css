@@ -205,6 +205,22 @@
         width: 80%;
     }
 
+    .feature-cards{
+        gap:30px;
+    }
+    .feature-card{
+        max-width: 100%;
+    }
+
+    .feature-card h3{
+        font-size: 1em;
+    }
+    .feature-card p{
+        width: 200px;
+        font-size: 1em;
+        text-align: center;
+    }
+
     html{
         overflow-x: hidden;
     }
@@ -339,6 +355,22 @@
         text-align: center;
     }
 
+    .feature-cards{
+        gap:10px;
+    }
+    .feature-card{
+        max-width: 100%;
+    }
+
+    .feature-card h3{
+        font-size: 1em;
+    }
+    .feature-card p{
+        width: 200px;
+        font-size: 1em;
+        text-align: center;
+    }
+
     .grid{
         padding: none;
         font-size: 13px;
@@ -365,7 +397,9 @@
 }
 
 @media screen and (max-width:320px) {
-    
+    .features-section{
+        background: none;
+    }
     .try,.learn{
         width: 80%;
     }
@@ -413,7 +447,7 @@
     }
 
     .feature-cards{
-        gap:10px;
+        gap:30px;
     }
     .feature-card{
         max-width: 100%;
